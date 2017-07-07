@@ -1,0 +1,26 @@
+.content{
+	// background-image: url('../../../assets/images/stock/2014_dodge_challenger.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: inherit;
+	background-attachment: fixed;
+}
+#searchWrapper form{
+	margin: 0;
+	padding: 0;
+}
+#searchWrapper fieldset{
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+}
+#searchWrapper fieldset > div{
+	display: inline-flex;
+	flex-flow: row;
+	justify-content: center;
+	border: solid 1px rgba(141, 179, 193, 1);
+	border-radius: 5px;
+	background-color: #fff;
+}

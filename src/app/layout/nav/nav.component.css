@@ -1,0 +1,45 @@
+nav{
+	height: inherit;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+ul{
+	height: inherit;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	width: 100%;
+}
+li{
+	height: inherit;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+a{
+	height: inherit;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 1);
+	border-bottom: solid 2px rgba(33, 71, 91, 1);
+}
+a:hover{
+	color:rgba(202, 247, 225, 1);
+	border-bottom: solid 2px rgba(202, 247, 225, 1);
+}
+li:nth-child(1n){
+	order: 2;
+}
+li:nth-child(2n){
+	order: 1;
+}
+li:nth-nth-child(3n){
+	order: 3;
+}

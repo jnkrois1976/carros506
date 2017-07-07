@@ -1,0 +1,13 @@
+body{
+	overflow-y:hidden;
+}
+#searchWrapper input{
+	border: none;
+	outline: none;
+	display: inline;
+	border-radius: 5px;
+	width: initial;
+}
+#searchWrapper input:focus{
+	box-shadow: none;
+}
