@@ -3,7 +3,7 @@
 		<form method="post" action="/search">
 			<fieldset>
 				<div>
-					<input type="text" placeholder="Marca, " />
+					<input (keyup)="getMakes($event)" type="text" placeholder="Marca, " />
 					<input type="text" placeholder="Modelo," />
 					<input type="text" placeholder="A&ntilde;o" />
 				</div>
